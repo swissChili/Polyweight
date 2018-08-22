@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,500,500i,600,600i,700,700i');
+html {
+    background-color: rgba(255,255,255);
+    color: #000;
+    font-family: IBM Plex Mono;
+    padding: 1em;
+}
+.hljs * {
+    opacity: .8;
+}
+.hljs-comment, .hljs-quote {
+    font-style: italic;
+    font-weight: 400;
+    opacity: .5;
+}
+.hljs-name, .hljs-selector-id, .hljs-selector-class, .hljs-regexp, .hljs-deletion {
+    font-weight: 500;
+}
+.hljs-variable, .hljs-template-variable, .hljs-tag {
+    font-weight: 600;
+}
+.hljs-number, .hljs-builtin-name, .hljs-literal, .hljs-type, .hljs-params, .hljs-meta, .hljs-link {
+    font-weight: 400;
+    font-style: italic;
+    opacity: .6;
+}
+.hljs-attribute {
+    font-weight: 700;
+}
+.hljs-string,  .hljs-symbol, .hljs-bullet, .hljs-addition {
+    font-weight: 400;
+    font-style: italic;
+}
+.hljs-title, .hljs-section {
+    opacity: 1;
+    font-weight: 500;
+    font-style: underline;
+}
+.hljs-keyword, .hljs-built_in, .hljs-selector-tag {
+    font-weight: 700;
+    opacity: 1;
+}
+.hljs {
+    display: block;
+    overflow-x: auto;
+    background: rgb(5,10,20);
+    padding: 1em;
+    color: #fff;
+    font-size: 1rem;
+    font-family: IBM Plex Mono;
+    font-variant-ligatures: normal;
+    font-weight: 500;
+}
+.hljs-emphasis {
+    font-weight: 700;
+}
+.hljs-strong {
+    font-weight: 700;
+    opacity: 1;
+}
+.light {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}

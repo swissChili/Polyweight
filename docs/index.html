@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Polyweight</title>
+        <link rel="stylesheet" href="../polyweight-hljs.css">
+    </head>
+    <body>
+        <div>
+            <h1>Polyweight</h1>
+            <h2>
+                A color theme without much color.
+            </h2>
+            <h2><i class="hljs-comment"># Light Theme Example ( python ):</i></h2>
+            <pre class="light"><code>class Polyweight ( ColorTheme ):
+    def init ( self, *args, **kwargs ):
+        super( ).__init__( )
+        self.color = False
+        self.themes = [
+            'light',
+            'dark'
+        ]
+        self.font = "IBM Plex Mono"
+        self.ligatures = "Not yet, but soon"</code></pre>
+            <h2><i class="hljs-comment">// Dark Theme Example ( C++ ):</i></h2>
+           <pre><code>class Polyweight : ColorTheme
+{
+public:
+    bool color = false;
+    char themes[2] = [
+        "light",
+        "dark"
+    ];
+    char font[] = "IBM Plex Mono";
+    char ligatures[] = "Not yet, but soon";
+}</code></pre>
+            <h3 class="hljs-comment">// Created by <a href="http://github.com/swissChili">swissChili</a></h3>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    </body>
+</html
