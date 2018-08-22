@@ -2,6 +2,9 @@
 ### A color theme without much color
 ### View examples [here](http://swisschili.github.io/Polyweight)
 
+![](./polyweight-light-theme.png)
+![](./polyweight-dark-theme.png)
+
 Currently, Polyweight is available for only `highlight.js`, but VS Code and Atom themes will be comming in the future.
 
 
